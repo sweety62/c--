@@ -47,6 +47,10 @@ int main(){
   } else {
     cout << "Element not found" << endl;
   }
+
+  //count() - returns the number of elements that are equal to a given value
+  int count = s.count(30);
+  cout << "Count of 30: " << count << endl;
   /*for(auto it=s.begin();it!=s.end();it++){
     cout<<*it<<" ";
   }*/

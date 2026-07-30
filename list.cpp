@@ -29,4 +29,9 @@ int main(){
   for(auto it=l.begin();it!=l.end();it++){
     cout<<*it<<" ";
   }
+//reverse order
+  for(auto it=l.rbegin();it!=l.rend();it++){
+    cout<<*it<<" ";
+  }
+  
 }

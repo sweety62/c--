@@ -13,7 +13,7 @@ using namespace std;
 //clear() - removes all the elements of the list
 //sort() - sorts the list in ascending order
 //iterator - an object that points to an element in the list
-
+//15 20 30 40 80
 
 int main(){
   list<int>l;
@@ -24,6 +24,9 @@ int main(){
   l.push_back(40);
   l.push_back(68);
   l. push_front(15);
-  cout<<l.front()<<""<<l.back()<<endl;
-  cout<<l.size()<<endl;
+  //cout<<l.front()<<""<<l.back()<<endl;
+  //cout<<l.size()<<endl;
+  for(auto it=l.begin();it!=l.end();it++){
+    cout<<*it<<" ";
+  }
 }

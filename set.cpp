@@ -38,6 +38,9 @@ int main(){
   s.insert(70);
   s.insert(80);
 
+  //erase() - removes an element from the set
+  s.erase(30);
+
   //search for an element in the set
 
   //find() - searches for an element in the set

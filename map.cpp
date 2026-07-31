@@ -4,11 +4,13 @@ using namespace std;
 int main(){
   map<int,int> m;
   //insert() - adds an element to the map
-  m.insert(make_pair(1,20));
-  m.insert(make_pair(2,30));
-  m.insert(make_pair(3,40));
-  m.insert(make_pair(4,50));
-  m.insert(make_pair(5,60));
+  m.insert(make_pair(20,30));
+  m.insert(make_pair(30,310));
+  m.insert(make_pair(340,230));
+  m.insert(make_pair(20,230));
+  m.insert(make_pair(50,30));
+  m[100] = 20;//
+  m[20]=70;
 
   //erase() - removes an element from the map
   m.erase(3);
@@ -33,4 +35,10 @@ int main(){
   for(auto it=m.begin();it!=m.end();it++){
     cout<<it->first<<" "<<it->second<<endl;
   }
+
+
+  cout<<endl;
+  if(m.count(20))
+  cout<<m[20]<<" ";
+  
 }
